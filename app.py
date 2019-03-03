@@ -19,17 +19,6 @@ app.secret_key = "SubhamRoUtRoCkS"
 api = Api(app)
 jwt = JWT(app,authenticate,identity)
 
-total = 0
-
-'''
-@app.before_first_request
-def create_all():
-    db.create_all()
-'''
-
-
-
-    
         
 api.add_resource(Bag,'/<string:itemName>')        
 api.add_resource(Print_bill,"/printBill")

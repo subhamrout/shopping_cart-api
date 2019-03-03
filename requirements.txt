@@ -2,7 +2,6 @@ Flask
 Flask-RESTful
 Flask-JWT
 Flask-SQLAlchemy
+SQLite3
 uwsgi
 psycopg2
-
-
